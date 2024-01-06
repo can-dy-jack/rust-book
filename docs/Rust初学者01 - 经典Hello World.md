@@ -14,7 +14,7 @@ error: could not download file from 'https://static.rust-lang.org/dist/channel-r
 这里推荐去官网下载msi文件手动下载：[Other Installation Methods - Rust Forge (rust-lang.org)](https://forge.rust-lang.org/infra/other-installation-methods.html)
 
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/672bdd23bccb4ae2927434cd90fd1b45~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=1980&h=1239&s=242057&e=png&b=fcfcfc)
+![image.png](./images/rust01-1.png)
 
 选择对应的版本下载安装即可,这里我选择windows的版本。
 
@@ -25,7 +25,7 @@ rustc -- version
 cargo --version
 ```
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7c3db605ef0a43f18df55a44a41eb4a6~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=715&h=241&s=23952&e=png&b=0d0d0d)
+![image.png](./images/rust01-2.png)
 
 
 ## Hello World
@@ -50,7 +50,7 @@ rustc index.js
 ./index
 ```
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a39aa2d3d2c84c919e90833121c385bb~tplv-k3u1fbpfcp-jj-mark:0:0:0:0:q75.image#?w=846&h=192&s=30901&e=png&b=181818)
+![image.png](./images/rust01-3.png)
 
 看到输出内容则证明你已经成功运行了 Rust 项目！~~恭喜你已经成功掌握了Rust！🤣~~
 ### cargo
