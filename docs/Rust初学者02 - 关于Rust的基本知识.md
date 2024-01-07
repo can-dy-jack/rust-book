@@ -101,7 +101,7 @@ println!("Pi is roughly {PI:.3}", PI = 3.141592); // Pi is roughly 3.142
 -  `fmt::Debug`：使用 `{:?}` 标记。格式化文本以供调试使用。
 -  `fmt::Display`：使用 `{}` 标记。以更优雅和友好的风格来格式化文本。
 
-## `fmt::Debug`
+### `fmt::Debug`
 > 所有的类型，若想用 `std::fmt` 的格式化打印，都要求实现至少一个可打印的 `traits`。仅有一些类型提供了自动实现，比如 `std` 库中的类型。所有其他类型都**必须手动实现**。  
 > `fmt::Debug` 这个 `trait` 使这项工作变得相当简单。所有类型都能推导（`derive`，即自动创建）`fmt::Debug` 的实现。  
 > 但是 `fmt::Display` 需要手动实现。
