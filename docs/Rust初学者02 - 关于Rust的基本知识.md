@@ -495,7 +495,6 @@ Rust 有两种常量，可以在任意作用域声明，包括全局作用域。
 - `const`：不可改变的值（通常使用这种）。
 - `static`：具有 `'static` 生命周期的，可以是可变的变量（`static mut`）。
 
-
 ## 一些技巧
 1. `#[allow(dead_code)]` 用于隐藏对未使用代码的警告。
     - `#[allow(dead_code)]`
